@@ -1,0 +1,47 @@
+.boxcenter{
+    width: 80%;
+    margin: auto;
+}
+header{
+    height: 100px;
+    border: 1px solid black;
+}
+nav{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #999;
+}
+.mb{
+    margin-bottom: 5px;
+}
+.boxnoidung{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+
+    margin-right: 5px;
+}
+article{
+    width: 29%;
+    min-height: 600px;
+    float: left;
+    background-color: aqua;
+}
+aside{
+    width:70%;
+    min-height: 600px;
+    background-color: whitesmoke;
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+aside iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+footer{
+    background-color: antiquewhite;
+    height: 150px;
+    margin-top: 10px;
+}
